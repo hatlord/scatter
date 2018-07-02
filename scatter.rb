@@ -19,13 +19,18 @@ def mappings_file
   mappings = File.readlines(map_file).map(&:chomp &&:strip)
 end
 
+def sudo_hack
+  command.run!("sudo test") #cludgefactor 10
+end
+
 def create_ncats
   puts "Want to give birth to some fresh ncats? y/n"
   if gets.chomp.downcase == "y"
+    sudo_hack
     puts "Creating Fresh Cats...meow meow meow".green.bold
     mappings_file.each do |mapping|
       begin
-        out, err = command.run!("sudo ncat -k -l -p #{mapping.split(":")[0]} -c 'ncat #{mapping.split(":")[1]} #{mapping.split(":")[2]} -p #{mapping.split(":")[3]}'", timeout: 2)
+        out, err = command.run!("sudo ncat -k -l -p #{mapping.split(":")[0]} -c 'ncat #{mapping.split(":")[1]} #{mapping.split(":")[2]} -p #{mapping.split(":")[3]}'", timeout: 0.2)
       rescue TTY::Command::TimeoutExceeded => timeout_error
         if err =~ /Address already in use/
           print err.red.bold
