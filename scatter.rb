@@ -1,13 +1,12 @@
 #!/usr/bin/env ruby
 #scatter is a wrapper for setting up netcat tcp relays with source port manipulation
-#version 0.1 - Codeine flavoured fever dream
+#version 0.2 - Codeine flavoured fever dream
 
 require 'trollop'
 require 'colorize'
 require 'logger'
 require 'tty-command'
 require 'tty-prompt'
-require 'pp'
 
 def command
   log = Logger.new('debug.log')
@@ -17,7 +16,7 @@ end
 def mappings_file
   tooldir  = File.expand_path(File.dirname(__FILE__))
   map_file = "#{tooldir}/mappings.txt"
-  mappings = File.readlines(map_file)
+  mappings = File.readlines(map_file).map(&:chomp &&:strip)
 end
 
 def create_ncats
@@ -25,9 +24,12 @@ def create_ncats
   if gets.chomp.downcase == "y"
     puts "Creating Fresh Cats...meow meow meow".green.bold
     mappings_file.each do |mapping|
-      out, err = command.run!("sudo ncat -k -l -p #{mapping.split(":")[0]} -c 'ncat #{mapping.split(":")[1]} #{mapping.split(":")[2]} -p #{mapping.split(":")[3]}'", timeout: 1)
-      if err =~ /Address already in use/
-        print err.red.bold
+      begin
+        out, err = command.run!("sudo ncat -k -l -p #{mapping.split(":")[0]} -c 'ncat #{mapping.split(":")[1]} #{mapping.split(":")[2]} -p #{mapping.split(":")[3]}'", timeout: 0.2)
+      rescue TTY::Command::TimeoutExceeded => timeout_error
+        if err =~ /Address already in use/
+          print err.red.bold
+        end
       end
     end
   else
@@ -47,7 +49,7 @@ end
 
 def do_you_wanna_kill_an_ncat
   unless existing_ncats.empty?
-    puts "Existing ncats detected!".light_blue
+    puts "Existing ncats detected:".light_blue
     puts existing_ncats
     puts "You already have some ncats...meow...want to kill some? y/n".red
     if gets.chomp.downcase == "y"
