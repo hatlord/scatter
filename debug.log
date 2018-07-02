@@ -1,0 +1,190 @@
+# Logfile created on 2018-07-02 18:47:31 +0100 by logger.rb/53141
+[[32m2f2321aa[0m] Running [33;1mps -af | grep 'ncat -k -l -p'[0m
+[[32m2f2321aa[0m] 	  501  9335  9334   0  6:47pm ttys000    0:00.00 sh -c ps -af | grep 'ncat -k -l -p'
+  501  9337  9335   0  6:47pm ttys000    0:00.00 grep ncat -k -l -p
+[[32m2f2321aa[0m] Finished in 0.074 seconds with exit status 0 ([32;1msuccessful[0m)
+[[32m34a474bc[0m] Running [33;1msudo ncat -k -l -p 21 -c 'ncat 10.10.10.10 21 -p 53'[0m
+[[32mca59898a[0m] Running [33;1msudo ncat -k -l -p 22 -c 'ncat 10.10.10.10 22 -p 53'[0m
+[[32m88663e8d[0m] Running [33;1msudo ncat -k -l -p 445 -c 'ncat 10.10.10.11 445 -p 53'[0m
+[[32m8af89e71[0m] Running [33;1msudo ncat -k -l -p 3389 -c 'ncat 10.10.10.11 3389 -p 53'[0m
+[[32m88af993e[0m] Running [33;1msudo ncat -k -l -p 446 -c 'ncat 10.10.10.12 445 -p 53'[0m
+[[32mdb2c12e1[0m] Running [33;1msudo ncat -k -l -p 3390 -c 'ncat 10.10.10.12 3389 -p 53'[0m
+[[32m3243cf10[0m] Running [33;1msudo ncat -k -l -p 447 -c 'ncat 10.10.10.11 445 -p 53'[0m
+[[32m645f9038[0m] Running [33;1msudo ncat -k -l -p 3391 -c 'ncat 10.10.10.11 3389 -p 53'[0m
+[[32m60df48e7[0m] Running [33;1mps -af | grep 'ncat -k -l -p'[0m
+[[32m60df48e7[0m] 	    0  9341  9334   0  6:47pm ttys000    0:00.04 sudo ncat -k -l -p 21 -c ncat 10.10.10.10 21 -p 53
+    0  9342  9334   0  6:47pm ttys000    0:00.02 sudo ncat -k -l -p 22 -c ncat 10.10.10.10 22 -p 53
+    0  9343  9334   0  6:47pm ttys000    0:00.02 sudo ncat -k -l -p 445 -c ncat 10.10.10.11 445 -p 53
+    0  9344  9334   0  6:47pm ttys000    0:00.02 sudo ncat -k -l -p 3389 -c ncat 10.10.10.11 3389 -p 53
+    0  9345  9334   0  6:47pm ttys000    0:00.02 sudo ncat -k -l -p 446 -c ncat 10.10.10.12 445 -p 53
+    0  9346  9334   0  6:47pm ttys000    0:00.02 sudo ncat -k -l -p 3390 -c ncat 10.10.10.12 3389 -p 53
+    0  9347  9334   0  6:47pm ttys000    0:00.02 sudo ncat -k -l -p 447 -c ncat 10.10.10.11 445 -p 53
+    0  9348  9334   0  6:47pm ttys000    0:00.02 sudo ncat -k -l -p 3391 -c ncat 10.10.10.11 3389 -p 53
+  501  9349  9334   0  6:47pm ttys000    0:00.00 sh -c ps -af | grep 'ncat -k -l -p'
+  501  9351  9349   0  6:47pm ttys000    0:00.00 grep ncat -k -l -p
+[[32m60df48e7[0m] Finished in 0.074 seconds with exit status 0 ([32;1msuccessful[0m)
+[[32md4b90284[0m] Running [33;1mps -af | grep 'ncat -k -l -p'[0m
+[[32md4b90284[0m] 	  501  9447  9446   0  6:47pm ttys027    0:00.00 sh -c ps -af | grep 'ncat -k -l -p'
+  501  9449  9447   0  6:47pm ttys027    0:00.00 grep ncat -k -l -p
+[[32md4b90284[0m] Finished in 0.038 seconds with exit status 0 ([32;1msuccessful[0m)
+[[32m405915dd[0m] Running [33;1msudo ncat -k -l -p 21 -c 'ncat 10.10.10.10 21 -p 53'[0m
+[[32m8fdb2d1a[0m] Running [33;1msudo ncat -k -l -p 22 -c 'ncat 10.10.10.10 22 -p 53'[0m
+[[32m6a0b921b[0m] Running [33;1msudo ncat -k -l -p 445 -c 'ncat 10.10.10.11 445 -p 53'[0m
+[[32m32f82f09[0m] Running [33;1msudo ncat -k -l -p 3389 -c 'ncat 10.10.10.11 3389 -p 53'[0m
+[[32m3d8674af[0m] Running [33;1msudo ncat -k -l -p 446 -c 'ncat 10.10.10.12 445 -p 53'[0m
+[[32m018fe6b4[0m] Running [33;1msudo ncat -k -l -p 3390 -c 'ncat 10.10.10.12 3389 -p 53'[0m
+[[32m48682de9[0m] Running [33;1msudo ncat -k -l -p 447 -c 'ncat 10.10.10.11 445 -p 53'[0m
+[[32m9c5fc9c9[0m] Running [33;1msudo ncat -k -l -p 3391 -c 'ncat 10.10.10.11 3389 -p 53'[0m
+[[32mc011ac1d[0m] Running [33;1mps -af | grep 'ncat -k -l -p'[0m
+[[32mc011ac1d[0m] 	    0  9450  9446   0  6:47pm ttys027    0:00.03 sudo ncat -k -l -p 21 -c ncat 10.10.10.10 21 -p 53
+    0  9451  9446   0  6:47pm ttys027    0:00.02 sudo ncat -k -l -p 22 -c ncat 10.10.10.10 22 -p 53
+    0  9452  9446   0  6:47pm ttys027    0:00.02 sudo ncat -k -l -p 445 -c ncat 10.10.10.11 445 -p 53
+    0  9453  9446   0  6:47pm ttys027    0:00.02 sudo ncat -k -l -p 3389 -c ncat 10.10.10.11 3389 -p 53
+    0  9454  9446   0  6:47pm ttys027    0:00.02 sudo ncat -k -l -p 446 -c ncat 10.10.10.12 445 -p 53
+    0  9455  9446   0  6:47pm ttys027    0:00.02 sudo ncat -k -l -p 3390 -c ncat 10.10.10.12 3389 -p 53
+    0  9456  9446   0  6:47pm ttys027    0:00.02 sudo ncat -k -l -p 447 -c ncat 10.10.10.11 445 -p 53
+    0  9457  9446   0  6:47pm ttys027    0:00.02 sudo ncat -k -l -p 3391 -c ncat 10.10.10.11 3389 -p 53
+  501  9458  9446   0  6:47pm ttys027    0:00.00 sh -c ps -af | grep 'ncat -k -l -p'
+  501  9460  9458   0  6:47pm ttys027    0:00.00 grep ncat -k -l -p
+[[32mc011ac1d[0m] Finished in 0.063 seconds with exit status 0 ([32;1msuccessful[0m)
+[[32md666c999[0m] Running [33;1mps -af | grep 'ncat -k -l -p'[0m
+[[32md666c999[0m] 	  501  9479  9478   0  6:48pm ttys027    0:00.00 sh -c ps -af | grep 'ncat -k -l -p'
+  501  9481  9479   0  6:48pm ttys027    0:00.00 grep ncat -k -l -p
+[[32md666c999[0m] Finished in 0.039 seconds with exit status 0 ([32;1msuccessful[0m)
+[[32mfbceebf2[0m] Running [33;1mps -af | grep 'ncat -k -l -p'[0m
+[[32mfbceebf2[0m] 	  501  9530  9529   0  6:48pm ttys004    0:00.00 sh -c ps -af | grep 'ncat -k -l -p'
+  501  9532  9530   0  6:48pm ttys004    0:00.00 grep ncat -k -l -p
+[[32mfbceebf2[0m] Finished in 0.034 seconds with exit status 0 ([32;1msuccessful[0m)
+[[32m8b53587b[0m] Running [33;1msudo ncat -k -l -p 21 -c 'ncat 10.10.10.10 21 -p 53'[0m
+[[32m0064f621[0m] Running [33;1msudo ncat -k -l -p 22 -c 'ncat 10.10.10.10 22 -p 53'[0m
+[[32m30e422da[0m] Running [33;1msudo ncat -k -l -p 445 -c 'ncat 10.10.10.11 445 -p 53'[0m
+[[32mf74ab9c1[0m] Running [33;1msudo ncat -k -l -p 3389 -c 'ncat 10.10.10.11 3389 -p 53'[0m
+[[32md007e828[0m] Running [33;1msudo ncat -k -l -p 446 -c 'ncat 10.10.10.12 445 -p 53'[0m
+[[32m3561d2aa[0m] Running [33;1msudo ncat -k -l -p 3390 -c 'ncat 10.10.10.12 3389 -p 53'[0m
+[[32mfb8ac233[0m] Running [33;1msudo ncat -k -l -p 447 -c 'ncat 10.10.10.11 445 -p 53'[0m
+[[32md5ee322d[0m] Running [33;1msudo ncat -k -l -p 3391 -c 'ncat 10.10.10.11 3389 -p 53'[0m
+[[32maeee744f[0m] Running [33;1mps -af | grep 'ncat -k -l -p'[0m
+[[32maeee744f[0m] 	    0  9534  9529   0  6:48pm ttys004    0:00.03 sudo ncat -k -l -p 21 -c ncat 10.10.10.10 21 -p 53
+    0  9535  9529   0  6:48pm ttys004    0:00.02 sudo ncat -k -l -p 22 -c ncat 10.10.10.10 22 -p 53
+    0  9536  9529   0  6:48pm ttys004    0:00.02 sudo ncat -k -l -p 445 -c ncat 10.10.10.11 445 -p 53
+    0  9537  9529   0  6:48pm ttys004    0:00.02 sudo ncat -k -l -p 3389 -c ncat 10.10.10.11 3389 -p 53
+    0  9538  9529   0  6:48pm ttys004    0:00.02 sudo ncat -k -l -p 446 -c ncat 10.10.10.12 445 -p 53
+    0  9539  9529   0  6:48pm ttys004    0:00.02 sudo ncat -k -l -p 3390 -c ncat 10.10.10.12 3389 -p 53
+    0  9540  9529   0  6:48pm ttys004    0:00.02 sudo ncat -k -l -p 447 -c ncat 10.10.10.11 445 -p 53
+    0  9541  9529   0  6:48pm ttys004    0:00.02 sudo ncat -k -l -p 3391 -c ncat 10.10.10.11 3389 -p 53
+  501  9542  9529   0  6:48pm ttys004    0:00.00 sh -c ps -af | grep 'ncat -k -l -p'
+  501  9544  9542   0  6:48pm ttys004    0:00.00 grep ncat -k -l -p
+[[32maeee744f[0m] Finished in 0.058 seconds with exit status 0 ([32;1msuccessful[0m)
+[[32m228d32ac[0m] Running [33;1mps -af | grep 'ncat -k -l -p'[0m
+[[32m228d32ac[0m] 	  501  9675  9671   0  6:49pm ttys001    0:00.00 sh -c ps -af | grep 'ncat -k -l -p'
+  501  9677  9675   0  6:49pm ttys001    0:00.00 grep ncat -k -l -p
+[[32m228d32ac[0m] Finished in 0.029 seconds with exit status 0 ([32;1msuccessful[0m)
+[[32m831a787c[0m] Running [33;1msudo ncat -k -l -p 21 -c 'ncat 10.10.10.10 21 -p 53'[0m
+[[32m63166c5d[0m] Running [33;1msudo ncat -k -l -p 22 -c 'ncat 10.10.10.10 22 -p 53'[0m
+[[32m78ea35d7[0m] Running [33;1msudo ncat -k -l -p 445 -c 'ncat 10.10.10.11 445 -p 53'[0m
+[[32m2e44ad0b[0m] Running [33;1msudo ncat -k -l -p 3389 -c 'ncat 10.10.10.11 3389 -p 53'[0m
+[[32m76a39c56[0m] Running [33;1msudo ncat -k -l -p 446 -c 'ncat 10.10.10.12 445 -p 53'[0m
+[[32m63a91ad0[0m] Running [33;1msudo ncat -k -l -p 3390 -c 'ncat 10.10.10.12 3389 -p 53'[0m
+[[32mcbd89a1c[0m] Running [33;1msudo ncat -k -l -p 447 -c 'ncat 10.10.10.11 445 -p 53'[0m
+[[32m543f55d5[0m] Running [33;1msudo ncat -k -l -p 3391 -c 'ncat 10.10.10.11 3389 -p 53'[0m
+[[32mac685801[0m] Running [33;1mps -af | grep 'ncat -k -l -p'[0m
+[[32mac685801[0m] 	    0  9679  9671   0  6:49pm ttys001    0:00.05 sudo ncat -k -l -p 21 -c ncat 10.10.10.10 21 -p 53
+    0  9680  9671   0  6:49pm ttys001    0:00.03 sudo ncat -k -l -p 22 -c ncat 10.10.10.10 22 -p 53
+    0  9681  9671   0  6:49pm ttys001    0:00.03 sudo ncat -k -l -p 445 -c ncat 10.10.10.11 445 -p 53
+    0  9682  9671   0  6:49pm ttys001    0:00.03 sudo ncat -k -l -p 3389 -c ncat 10.10.10.11 3389 -p 53
+    0  9683  9671   0  6:49pm ttys001    0:00.03 sudo ncat -k -l -p 446 -c ncat 10.10.10.12 445 -p 53
+    0  9686  9671   0  6:49pm ttys001    0:00.03 sudo ncat -k -l -p 3390 -c ncat 10.10.10.12 3389 -p 53
+    0  9687  9671   0  6:49pm ttys001    0:00.03 sudo ncat -k -l -p 447 -c ncat 10.10.10.11 445 -p 53
+    0  9688  9671   0  6:49pm ttys001    0:00.03 sudo ncat -k -l -p 3391 -c ncat 10.10.10.11 3389 -p 53
+    0  9689  9679   0  6:49pm ttys001    0:00.00 ncat -k -l -p 21 -c ncat 10.10.10.10 21 -p 53
+    0  9690  9688   0  6:49pm ttys001    0:00.00 ncat -k -l -p 3391 -c ncat 10.10.10.11 3389 -p 53
+    0  9691 
+[[32mac685801[0m] 	 9680   0  6:49pm ttys001    0:00.00 ncat -k -l -p 22 -c ncat 10.10.10.10 22 -p 53
+    0  9692  9682   0  6:49pm ttys001    0:00.00 ncat -k -l -p 3389 -c ncat 10.10.10.11 3389 -p 53
+    0  9693  9687   0  6:49pm ttys001    0:00.00 ncat -k -l -p 447 -c ncat 10.10.10.11 445 -p 53
+    0  9694  9683   0  6:49pm ttys001    0:00.00 ncat -k -l -p 446 -c ncat 10.10.10.12 445 -p 53
+    0  9695  9681   0  6:49pm ttys001    0:00.00 ncat -k -l -p 445 -c ncat 10.10.10.11 445 -p 53
+    0  9696  9686   0  6:49pm ttys001    0:00.00 ncat -k -l -p 3390 -c ncat 10.10.10.12 3389 -p 53
+  501  9697  9671   0  6:49pm ttys001    0:00.00 sh -c ps -af | grep 'ncat -k -l -p'
+  501  9699  9697   0  6:49pm ttys001    0:00.00 grep ncat -k -l -p
+[[32mac685801[0m] Finished in 0.072 seconds with exit status 0 ([32;1msuccessful[0m)
+[[32me13daced[0m] Running [33;1mps -af | grep 'ncat -k -l -p'[0m
+[[32me13daced[0m] 	    0  9679     1   0  6:49pm ttys001    0:00.05 sudo ncat -k -l -p 21 -c ncat 10.10.10.10 21 -p 53
+    0  9680     1   0  6:49pm ttys001    0:00.03 sudo ncat -k -l -p 22 -c ncat 10.10.10.10 22 -p 53
+    0  9681     1   0  6:49pm ttys001    0:00.03 sudo ncat -k -l -p 445 -c ncat 10.10.10.11 445 -p 53
+    0  9682     1   0  6:49pm ttys001    0:00.03 sudo ncat -k -l -p 3389 -c ncat 10.10.10.11 3389 -p 53
+    0  9683     1   0  6:49pm ttys001    0:00.03 sudo ncat -k -l -p 446 -c ncat 10.10.10.12 445 -p 53
+    0  9686     1   0  6:49pm ttys001    0:00.03 sudo ncat -k -l -p 3390 -c ncat 10.10.10.12 3389 -p 53
+    0  9687     1   0  6:49pm ttys001    0:00.03 sudo ncat -k -l -p 447 -c ncat 10.10.10.11 445 -p 53
+    0  9688     1   0  6:49pm ttys001    0:00.03 sudo ncat -k -l -p 3391 -c ncat 10.10.10.11 3389 -p 53
+    0  9689  9679   0  6:49pm ttys001    0:00.00 ncat -k -l -p 21 -c ncat 10.10.10.10 21 -p 53
+    0  9690  9688   0  6:49pm ttys001    0:00.00 ncat -k -l -p 3391 -c ncat 10.10.10.11 3389 -p 53
+    0  9691 
+[[32me13daced[0m] 	 9680   0  6:49pm ttys001    0:00.00 ncat -k -l -p 22 -c ncat 10.10.10.10 22 -p 53
+    0  9692  9682   0  6:49pm ttys001    0:00.00 ncat -k -l -p 3389 -c ncat 10.10.10.11 3389 -p 53
+    0  9693  9687   0  6:49pm ttys001    0:00.00 ncat -k -l -p 447 -c ncat 10.10.10.11 445 -p 53
+    0  9694  9683   0  6:49pm ttys001    0:00.00 ncat -k -l -p 446 -c ncat 10.10.10.12 445 -p 53
+    0  9695  9681   0  6:49pm ttys001    0:00.00 ncat -k -l -p 445 -c ncat 10.10.10.11 445 -p 53
+    0  9696  9686   0  6:49pm ttys001    0:00.00 ncat -k -l -p 3390 -c ncat 10.10.10.12 3389 -p 53
+  501  9738  9737   0  6:49pm ttys001    0:00.00 sh -c ps -af | grep 'ncat -k -l -p'
+  501  9740  9738   0  6:49pm ttys001    0:00.00 grep ncat -k -l -p
+[[32me13daced[0m] Finished in 0.076 seconds with exit status 0 ([32;1msuccessful[0m)
+[[32m7c2b0d08[0m] Running [33;1mps -af | grep 'ncat -k -l -p'[0m
+[[32m7c2b0d08[0m] 	    0  9679     1   0  6:49pm ttys001    0:00.05 sudo ncat -k -l -p 21 -c ncat 10.10.10.10 21 -p 53
+    0  9680     1   0  6:49pm ttys001    0:00.03 sudo ncat -k -l -p 22 -c ncat 10.10.10.10 22 -p 53
+    0  9681     1   0  6:49pm ttys001    0:00.03 sudo ncat -k -l -p 445 -c ncat 10.10.10.11 445 -p 53
+    0  9682     1   0  6:49pm ttys001    0:00.03 sudo ncat -k -l -p 3389 -c ncat 10.10.10.11 3389 -p 53
+    0  9683     1   0  6:49pm ttys001    0:00.03 sudo ncat -k -l -p 446 -c ncat 10.10.10.12 445 -p 53
+    0  9686     1   0  6:49pm ttys001    0:00.03 sudo ncat -k -l -p 3390 -c ncat 10.10.10.12 3389 -p 53
+    0  9687     1   0  6:49pm ttys001    0:00.03 sudo ncat -k -l -p 447 -c ncat 10.10.10.11 445 -p 53
+    0  9688     1   0  6:49pm ttys001    0:00.03 sudo ncat -k -l -p 3391 -c ncat 10.10.10.11 3389 -p 53
+    0  9689  9679   0  6:49pm ttys001    0:00.00 ncat -k -l -p 21 -c ncat 10.10.10.10 21 -p 53
+    0  9690  9688   0  6:49pm ttys001    0:00.00 ncat -k -l -p 3391 -c ncat 10.10.10.11 3389 -p 53
+    0  9691 
+[[32m7c2b0d08[0m] 	 9680   0  6:49pm ttys001    0:00.00 ncat -k -l -p 22 -c ncat 10.10.10.10 22 -p 53
+    0  9692  9682   0  6:49pm ttys001    0:00.00 ncat -k -l -p 3389 -c ncat 10.10.10.11 3389 -p 53
+    0  9693  9687   0  6:49pm ttys001    0:00.00 ncat -k -l -p 447 -c ncat 10.10.10.11 445 -p 53
+    0  9694  9683   0  6:49pm ttys001    0:00.00 ncat -k -l -p 446 -c ncat 10.10.10.12 445 -p 53
+    0  9695  9681   0  6:49pm ttys001    0:00.00 ncat -k -l -p 445 -c ncat 10.10.10.11 445 -p 53
+    0  9696  9686   0  6:49pm ttys001    0:00.00 ncat -k -l -p 3390 -c ncat 10.10.10.12 3389 -p 53
+  501  9741  9737   0  6:49pm ttys001    0:00.00 sh -c ps -af | grep 'ncat -k -l -p'
+  501  9743  9741   0  6:49pm ttys001    0:00.00 grep ncat -k -l -p
+[[32m7c2b0d08[0m] Finished in 0.078 seconds with exit status 0 ([32;1msuccessful[0m)
+[[32m53f9bb4a[0m] Running [33;1mps -af | grep 'ncat -k -l -p'[0m
+[[32m53f9bb4a[0m] 	    0  9679     1   0  6:49pm ttys001    0:00.05 sudo ncat -k -l -p 21 -c ncat 10.10.10.10 21 -p 53
+    0  9680     1   0  6:49pm ttys001    0:00.03 sudo ncat -k -l -p 22 -c ncat 10.10.10.10 22 -p 53
+    0  9681     1   0  6:49pm ttys001    0:00.03 sudo ncat -k -l -p 445 -c ncat 10.10.10.11 445 -p 53
+    0  9682     1   0  6:49pm ttys001    0:00.03 sudo ncat -k -l -p 3389 -c ncat 10.10.10.11 3389 -p 53
+    0  9683     1   0  6:49pm ttys001    0:00.03 sudo ncat -k -l -p 446 -c ncat 10.10.10.12 445 -p 53
+    0  9686     1   0  6:49pm ttys001    0:00.03 sudo ncat -k -l -p 3390 -c ncat 10.10.10.12 3389 -p 53
+    0  9687     1   0  6:49pm ttys001    0:00.03 sudo ncat -k -l -p 447 -c ncat 10.10.10.11 445 -p 53
+    0  9688     1   0  6:49pm ttys001    0:00.03 sudo ncat -k -l -p 3391 -c ncat 10.10.10.11 3389 -p 53
+    0  9689  9679   0  6:49pm ttys001    0:00.00 ncat -k -l -p 21 -c ncat 10.10.10.10 21 -p 53
+    0  9690  9688   0  6:49pm ttys001    0:00.00 ncat -k -l -p 3391 -c ncat 10.10.10.11 3389 -p 53
+    0  9691 
+[[32m53f9bb4a[0m] 	 9680   0  6:49pm ttys001    0:00.00 ncat -k -l -p 22 -c ncat 10.10.10.10 22 -p 53
+    0  9692  9682   0  6:49pm ttys001    0:00.00 ncat -k -l -p 3389 -c ncat 10.10.10.11 3389 -p 53
+    0  9693  9687   0  6:49pm ttys001    0:00.00 ncat -k -l -p 447 -c ncat 10.10.10.11 445 -p 53
+    0  9694  9683   0  6:49pm ttys001    0:00.00 ncat -k -l -p 446 -c ncat 10.10.10.12 445 -p 53
+    0  9695  9681   0  6:49pm ttys001    0:00.00 ncat -k -l -p 445 -c ncat 10.10.10.11 445 -p 53
+    0  9696  9686   0  6:49pm ttys001    0:00.00 ncat -k -l -p 3390 -c ncat 10.10.10.12 3389 -p 53
+  501  9744  9737   0  6:49pm ttys001    0:00.00 sh -c ps -af | grep 'ncat -k -l -p'
+  501  9746  9744   0  6:49pm ttys001    0:00.00 grep ncat -k -l -p
+[[32m53f9bb4a[0m] Finished in 0.076 seconds with exit status 0 ([32;1msuccessful[0m)
+[[32mfe580a3e[0m] Running [33;1msudo pkill -f 'sudo ncat -k -l -p 21 -c ncat 10.10.10.10 21 -p 53'[0m
+[[32mfe580a3e[0m] Finished in 0.052 seconds with exit status 0 ([32;1msuccessful[0m)
+[[32me6fddca7[0m] Running [33;1msudo pkill -f 'sudo ncat -k -l -p 22 -c ncat 10.10.10.10 22 -p 53'[0m
+[[32me6fddca7[0m] Finished in 0.051 seconds with exit status 0 ([32;1msuccessful[0m)
+[[32m35cde615[0m] Running [33;1msudo pkill -f 'sudo ncat -k -l -p 445 -c ncat 10.10.10.11 445 -p 53'[0m
+[[32m35cde615[0m] Finished in 0.052 seconds with exit status 0 ([32;1msuccessful[0m)
+[[32m1e03d4d4[0m] Running [33;1msudo pkill -f 'sudo ncat -k -l -p 3389 -c ncat 10.10.10.11 3389 -p 53'[0m
+[[32m1e03d4d4[0m] Finished in 0.051 seconds with exit status 0 ([32;1msuccessful[0m)
+[[32mb6f6d85e[0m] Running [33;1msudo pkill -f 'sudo ncat -k -l -p 446 -c ncat 10.10.10.12 445 -p 53'[0m
+[[32mb6f6d85e[0m] Finished in 0.050 seconds with exit status 0 ([32;1msuccessful[0m)
+[[32mbacfda80[0m] Running [33;1msudo pkill -f 'sudo ncat -k -l -p 3390 -c ncat 10.10.10.12 3389 -p 53'[0m
+[[32mbacfda80[0m] Finished in 0.050 seconds with exit status 0 ([32;1msuccessful[0m)
+[[32m38e41f6d[0m] Running [33;1msudo pkill -f 'sudo ncat -k -l -p 447 -c ncat 10.10.10.11 445 -p 53'[0m
+[[32m38e41f6d[0m] Finished in 0.051 seconds with exit status 0 ([32;1msuccessful[0m)
+[[32mf2a56471[0m] Running [33;1msudo pkill -f 'sudo ncat -k -l -p 3391 -c ncat 10.10.10.11 3389 -p 53'[0m
+[[32mf2a56471[0m] Finished in 0.050 seconds with exit status 0 ([32;1msuccessful[0m)
+[[32m52d6047e[0m] Running [33;1msudo ncat -k -l -p 21 -c 'ncat 10.10.10.10 21 -p 53'[0m

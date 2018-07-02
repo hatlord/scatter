@@ -25,7 +25,7 @@ def create_ncats
     puts "Creating Fresh Cats...meow meow meow".green.bold
     mappings_file.each do |mapping|
       begin
-        out, err = command.run!("sudo ncat -k -l -p #{mapping.split(":")[0]} -c 'ncat #{mapping.split(":")[1]} #{mapping.split(":")[2]} -p #{mapping.split(":")[3]}'", timeout: 0.2)
+        out, err = command.run!("sudo ncat -k -l -p #{mapping.split(":")[0]} -c 'ncat #{mapping.split(":")[1]} #{mapping.split(":")[2]} -p #{mapping.split(":")[3]}'", timeout: 2)
       rescue TTY::Command::TimeoutExceeded => timeout_error
         if err =~ /Address already in use/
           print err.red.bold
